@@ -1,0 +1,7 @@
+name: base_uri
+description: A tiny wrapper around Uri to easily define a base uri
+version: 0.1.0
+author: Thomas Thiebaud
+
+dev_dependencies:
+  test: ^1.15.4
