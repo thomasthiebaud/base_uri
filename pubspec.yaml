@@ -1,7 +1,10 @@
 name: base_uri
 description: A tiny wrapper around Uri to easily define a base uri
 version: 0.1.0
-author: Thomas Thiebaud
+repository: https://github.com/thomasthiebaud/base_uri
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
 
 dev_dependencies:
   test: ^1.15.4
