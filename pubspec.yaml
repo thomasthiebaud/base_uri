@@ -1,6 +1,6 @@
 name: base_uri
-description: A tiny wrapper around Uri to easily define a base uri
-version: 0.1.0
+description: A tiny wrapper around Uri to easily define a base uri that is reusable for all your endpoints. It also adds a version parameter.
+version: 0.1.1
 repository: https://github.com/thomasthiebaud/base_uri
 
 environment:

@@ -18,5 +18,5 @@ then use it accross your app
 
 ```
 BASE_URI.useWith('/path'); // https://example.com/v1/path
-BASE_URI.useWith('/path', queryParametes: {'test': 'yes'}); // https://example.com/v1/path?test=yes
+BASE_URI.useWith('/path', queryParameters: {'test': 'yes'}); // https://example.com/v1/path?test=yes
 ```
