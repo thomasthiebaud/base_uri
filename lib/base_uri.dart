@@ -7,12 +7,12 @@ library base_uri;
  * [version] will be added before your path. It must not include a leading / 
  */
 class BaseUri {
-  final String version;
-  final String host;
-  final String scheme;
-  final String userInfo;
-  final int port;
-  final String fragment;
+  final String? version;
+  final String? host;
+  final String? scheme;
+  final String? userInfo;
+  final int? port;
+  final String? fragment;
   BaseUri({
     this.version,
     this.host,
@@ -29,7 +29,7 @@ class BaseUri {
    */
   Uri useWith(
     String path, {
-    Map<String, dynamic> queryParameters,
+    Map<String, dynamic>? queryParameters,
   }) {
     final uri = Uri(
       scheme: scheme,
